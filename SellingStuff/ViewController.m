@@ -8,12 +8,14 @@
 
 #import "ViewController.h"
 #import "DataModel.h"
+#import "ProductDetailsViewController.h"
 
 @interface ViewController () <UITableViewDelegate, UITableViewDataSource>
 
 //@property NSMutableArray *productsArray;
 @property DataModel *dataModel;
 @property (weak, nonatomic) IBOutlet UILabel *quantityLabel;
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
 
 @end
 
@@ -83,6 +85,14 @@
     self.quantityLabel.text = [NSString stringWithFormat:@"%ld",[self.dataModel getTotalCountOfProducts]];
 }
 
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    ProductDetailsViewController *destinationViewController = segue.destinationViewController;
+    UITableViewCell *cell = sender;
+    NSIndexPath *indexPath = [self.tableView indexPathForCell: cell];
+    
+    destinationViewController.product = [self.dataModel.products objectAtIndex:indexPath.row];
+    
+}
 
 
 - (void)didReceiveMemoryWarning {

@@ -16,6 +16,7 @@
 		D25CF0901B59ED3E0082244E /* SellingStuffTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D25CF08F1B59ED3E0082244E /* SellingStuffTests.m */; };
 		D25CF09B1B59F5F20082244E /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = D25CF09A1B59F5F20082244E /* Product.m */; };
 		D25CF09E1B5A0E7D0082244E /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D25CF09D1B5A0E7D0082244E /* DataModel.m */; };
+		D25CF0A11B5A2EA20082244E /* ProductDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D25CF0A01B5A2EA20082244E /* ProductDetailsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,8 @@
 		D25CF09A1B59F5F20082244E /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
 		D25CF09C1B5A0E7D0082244E /* DataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModel.h; sourceTree = "<group>"; };
 		D25CF09D1B5A0E7D0082244E /* DataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataModel.m; sourceTree = "<group>"; };
+		D25CF09F1B5A2EA20082244E /* ProductDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductDetailsViewController.h; sourceTree = "<group>"; };
+		D25CF0A01B5A2EA20082244E /* ProductDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductDetailsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +99,8 @@
 				D25CF0991B59F5F20082244E /* Product.h */,
 				D25CF09A1B59F5F20082244E /* Product.m */,
 				D25CF07D1B59ED3E0082244E /* Main.storyboard */,
+				D25CF09F1B5A2EA20082244E /* ProductDetailsViewController.h */,
+				D25CF0A01B5A2EA20082244E /* ProductDetailsViewController.m */,
 				D25CF0801B59ED3E0082244E /* Images.xcassets */,
 				D25CF0821B59ED3E0082244E /* LaunchScreen.xib */,
 				D25CF0731B59ED3E0082244E /* Supporting Files */,
@@ -232,6 +237,7 @@
 				D25CF07C1B59ED3E0082244E /* ViewController.m in Sources */,
 				D25CF09E1B5A0E7D0082244E /* DataModel.m in Sources */,
 				D25CF09B1B59F5F20082244E /* Product.m in Sources */,
+				D25CF0A11B5A2EA20082244E /* ProductDetailsViewController.m in Sources */,
 				D25CF0791B59ED3E0082244E /* AppDelegate.m in Sources */,
 				D25CF0761B59ED3E0082244E /* main.m in Sources */,
 			);
@@ -428,6 +434,7 @@
 				D25CF0951B59ED3E0082244E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D25CF0961B59ED3E0082244E /* Build configuration list for PBXNativeTarget "SellingStuffTests" */ = {
 			isa = XCConfigurationList;
@@ -436,6 +443,7 @@
 				D25CF0981B59ED3E0082244E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
